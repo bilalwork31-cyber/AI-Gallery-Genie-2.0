@@ -2,7 +2,7 @@
 
 A Flutter-based AI-powered photo gallery app with advanced local processing capabilities for privacy-focused photo management and editing.
 
-![AI Gallery Genie](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=AI+Gallery+Genie)
+![AI Gallery Genie](aI%20gALLERY%20gENIE(2).jpg)
 
 ## 🚀 Features
 
@@ -39,7 +39,7 @@ A Flutter-based AI-powered photo gallery app with advanced local processing capa
 
 | Gallery View | AI Editing | Object Detection |
 |--------------|------------|------------------|
-| ![Gallery](https://via.placeholder.com/250x450/6366F1/FFFFFF?text=Gallery+View) | ![Editing](https://via.placeholder.com/250x450/8B5CF6/FFFFFF?text=AI+Editing) | ![Detection](https://via.placeholder.com/250x450/06B6D4/FFFFFF?text=Object+Detection) |
+| ![Gallery](images/aI%20gALLERY%20gENIE(2).jpg) | ![Editing](images/aI%20gALLERY%20gENIE(2).jpg) | ![Detection](images/aI%20gALLERY%20gENIE(2).jpg) |
 
 ## 🛠️ Tech Stack
 
