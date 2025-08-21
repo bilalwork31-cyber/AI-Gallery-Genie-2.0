@@ -1,22 +1,126 @@
-# cts
+# AI Gallery Genie 🖼️✨
 
-A new Flutter project.
+A Flutter-based AI-powered photo gallery app with advanced local processing capabilities for privacy-focused photo management and editing.
 
-## Getting Started
+![AI Gallery Genie](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=AI+Gallery+Genie)
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 📸 **Photo Classification**
+- **UNet Model**: Advanced image segmentation and classification
+- **FaceNet Integration**: Facial recognition and clustering
+- Smart photo organization and tagging
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔍 **Object Detection**
+- **Google MediaPipe**: Real-time object detection and tracking
+- Identify and label objects, people, and scenes
+- Enhanced search and filtering capabilities
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-// Updated on 2023-12-20 11:40:00
+### 🎨 **AI Photo Editing**
+- **Stable Diffusion**: Advanced AI-powered image editing
+- Background removal and replacement
+- Style transfer and enhancement
+- Inpainting and restoration
 
-// Updated on 2023-12-20 11:40:00
+## 💳 Credit System
 
-// Updated on 2023-12-20 11:40:00
+- **Stripe Integration**: Secure payment processing
+- **Credit-based Usage**: Pay-per-edit model
+- Track usage and manage credits efficiently
 
+## 🔒 Privacy First
+
+- **100% Local Processing**: All AI models run locally
+- **No Cloud Upload**: Your photos never leave your device
+- **Runtime Libraries**: Efficient local model execution
+- Complete privacy and data control
+
+## 📱 Screenshots
+
+| Gallery View | AI Editing | Object Detection |
+|--------------|------------|------------------|
+| ![Gallery](https://via.placeholder.com/250x450/6366F1/FFFFFF?text=Gallery+View) | ![Editing](https://via.placeholder.com/250x450/8B5CF6/FFFFFF?text=AI+Editing) | ![Detection](https://via.placeholder.com/250x450/06B6D4/FFFFFF?text=Object+Detection) |
+
+## 🛠️ Tech Stack
+
+- **Framework**: Flutter
+- **AI Models**: UNet, FaceNet, MediaPipe, Stable Diffusion
+- **Payment**: Stripe API
+- **Local Processing**: Runtime libraries for model execution
+- **State Management**: Provider pattern
+
+## 🏃‍♂️ Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/bilalwork31-cyber/AI-Gallery-Genie.git
+   cd AI-Gallery-Genie
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## 📁 Project Structure
+
+```
+lib/
+├── Model/                 # Data models and providers
+│   ├── GalleryProvider.dart
+│   ├── ImagelabelingProvider.dart
+│   ├── payment_provider.dart
+│   └── ...
+├── Model-View/           # UI screens and components
+│   ├── GalleryHome.dart
+│   ├── bg_remover.dart
+│   ├── upscaling.dart
+│   └── ...
+└── main.dart            # App entry point
+```
+
+## ⚙️ Configuration
+
+1. **Stripe Setup**: Add your Stripe keys in `lib/Model/payment_provider.dart`
+2. **Model Assets**: Ensure AI models are placed in the `assets/models/` directory
+3. **Permissions**: Configure camera and storage permissions in platform-specific files
+
+## 🔧 Features in Detail
+
+### AI Classification
+- Automatic photo tagging using UNet architecture
+- Face clustering with FaceNet for person-based organization
+- Smart albums based on AI analysis
+
+### Object Detection
+- Real-time detection using Google MediaPipe
+- Support for 80+ object categories
+- Bounding box visualization and confidence scores
+
+### Photo Editing
+- Stable Diffusion-powered editing tools
+- Background removal and replacement
+- Image upscaling and enhancement
+- Inpainting for object removal
+
+## 💰 Credit System
+- Purchase credits via Stripe integration
+- Different credit costs for various AI operations
+- Track usage history and remaining balance
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+**Built with ❤️ for privacy-conscious photo enthusiasts**
